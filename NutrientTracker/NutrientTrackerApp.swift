@@ -12,7 +12,7 @@ import SwiftData
 struct NutrientTrackerApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Macro.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +25,7 @@ struct NutrientTrackerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MacroView()
         }
         .modelContainer(sharedModelContainer)
     }
