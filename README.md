@@ -5,3 +5,4 @@ Also working on making a companion watchOS app for this.
 
 <img src="mainPage.png" height=500px> </img>
 <img src="addPage.png" height=500px > </img>
+<img src="addDate.png" height=500px > </img>
